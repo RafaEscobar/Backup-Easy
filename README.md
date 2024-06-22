@@ -7,27 +7,33 @@ Todos hemos guardado nuestros accesos (correos y contraseñas) en un bloc de not
 # Información importante
 
 ### Logotipo:
-![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
+![](https://i.postimg.cc/XvQNgkG4/black-readme.png)
 
 ![](https://img.shields.io/github/stars/RafaEscobar/Backup-Easy.svg) ![](https://img.shields.io/github/forks/RafaEscobar/Backup-Easy.svg) ![](https://img.shields.io/github/release/RafaEscobar/Backup-Easy.svg) ![](https://img.shields.io/github/issues/RafaEscobar/Backup-Easy.svg) 
 
+### Acondicionamiento del proyecto
 
-**Tabla de contenido**
-
-[TOCM]
-
-###Acondicionamiento del proyecto
 
 ```bash
-  npm install my-project
-  cd my-project
+  En construcción...
 ```
 
-###Prototipo
+### Prototipo:
 
-Image:
+##### Dashboard:
+![](https://i.postimg.cc/4xtRdbbB/a.png)
+##### Inicio de sesión:
+![](https://i.postimg.cc/J4sLwWyw/f.png)
+##### Registro:
+![](https://i.postimg.cc/sXKrzj9z/g.png)
+##### Accesos:
+![](https://i.postimg.cc/tJMG1BMm/b.png)
+##### Imagenes:
+![](https://i.postimg.cc/7PskQLZM/c.png)
+##### Un album:
+![](https://i.postimg.cc/m2KGB6MP/e.png)
+##### Archivos:
+![](https://i.postimg.cc/d31Ktb4y/d.png)
 
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
-
-> Follow your heart.
+> Follow us ❤✨🎉
 
