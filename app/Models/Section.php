@@ -9,6 +9,14 @@ class Section extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'section_name',
+        'section_description',
+        'user_id',
+        'tag_id',
+        'section_type_id'
+    ];
+
     public function tag()
     {
         return $this->belongsTo(Tag::class);
