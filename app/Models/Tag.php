@@ -9,5 +9,8 @@ class Tag extends Model
 {
     use HasFactory;
 
-    public 
+    public function sections()
+    {
+        return $this->hasMany(Section::class);
+    }
 }
