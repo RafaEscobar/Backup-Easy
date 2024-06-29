@@ -5,3 +5,7 @@
 [x-cloak] {
     display: none;
 }
+
+.basic-design {
+    @apply bg-[#37414B] text-white px-4 py-2 rounded-lg w-full font-medium border focus:border-[#37414B]
+}
