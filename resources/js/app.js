@@ -1,3 +1,4 @@
-import { loadingScreen } from "./modules/lotties/index";
+import { loadingScreen, loadingElement } from "./modules/lotties/index";
 
 loadingScreen();
+loadingElement();

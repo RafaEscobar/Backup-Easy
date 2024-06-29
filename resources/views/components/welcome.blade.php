@@ -1,3 +1,3 @@
 <div>
-    <x-v1.progress-screen />
+    <x-v1.progress-element />
 </div>
