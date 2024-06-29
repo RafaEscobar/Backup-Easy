@@ -1,3 +1,5 @@
 <div>
-    <x-v1.input name="name" placeholder="Ingresa tu nombre" isRequired="true" />
+    <div>
+        <x-v1.textarea name="name" rows="2" placeholder="Ingresa una descirpcion" />
+    </div>
 </div>
