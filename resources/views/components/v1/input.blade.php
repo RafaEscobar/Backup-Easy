@@ -1,3 +1,16 @@
-@props(['type' => 'text', 'name'])
+@props([
+    'type' => 'text',
+    'iconIsVisible' => false,
+    'name',
+    'placeholder',
+    'icon'
+])
 
-<input type="{{$type}}" name="{{$name}}" placeholder="Ingresa tu nombre" {{ $attributes->merge(['class' => 'bg-[#37414B] text-white px-4 py-2 rounded-lg w-full font-light']) }}>
+<div class="relative">
+    <input type="{{$type}}" name="{{$name}}" {{ $attributes->merge(['class' => 'bg-[#37414B] text-white px-4 py-2 rounded-lg w-full font-normal	']) }} placeholder="{{$placeholder}}">
+    @if ($iconIsVisible)
+        <div class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
+            {{ $icon }}
+        </div>
+    @endif
+</div>
