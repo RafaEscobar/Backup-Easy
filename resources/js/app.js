@@ -1,1 +1,3 @@
-import './bootstrap';
+import { loadingScreen } from "./modules/lotties/index";
+
+loadingScreen();
