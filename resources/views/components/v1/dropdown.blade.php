@@ -12,7 +12,8 @@
     x-transition:leave="transition ease-in duration-100"
     x-transition:leave-start="opacity-100 scale-100"
     x-transition:leave-end="opacity-0 scale-95"
-    {{ $attributes->merge(['class' => 'origin-top-left absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 px-2 py-2']) }}>
+    {{ $attributes->merge(['class' => 'origin-top-left absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-[#37414B] ring-1 ring-black ring-opacity-5 px-2 py-2']) }}
+    x-cloak >
       {{ $slot }}
   </div>
 </div>
